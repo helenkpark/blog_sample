@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.nav-bar .title h1{
+	position:fixed;
+}
+
+.title {
+	text-align:center;
+	margin:50px 0px -60px;
+	letter-spacing:10px;
+	font-weight:800;
+}
+
+ul {
+	margin-left:70px;
+	margin-right:50px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+li{
+	list-style:none;
+	float:left;
+	letter-spacing:4px;
+	padding: 2px 80px 4px 20px;
+	margin:0px -60px 0px 0;
+	color:black;
+	background-color:#F4F4EF;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:16px;
+	line-height:1.5;
+	/*truncated*/
+	font:16px/1.5 Helvetica, Arial, sans-serif;
+	margin:0px 0px 0px 0px;
+	padding:0 0 0 0;
+	/*truncated*/
+	margin:0;
+	padding:0;
+	background-color:white;
+}
+h1, h2, h3 {
+	font-family:Georgia;
+}
+.container {
+	width:970px;
+	margin-top:0;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-left:auto;
+	/*truncated*/
+	margin:0 auto;
+	
+}
+main {
+	padding:0px;
+	margin:0px 10px;
+}
+header {
+	margin: 10px -10px 10px -10px;
+	padding:50px 10px 70px;
+	background: url("../images/watercolor.jpg");
+	background-repeat:no-repeat;
+	background-color:#F4F4EF;
+}
+
+nav {
+	margin: 100px 200px 0px 200px;
+	height:30px;
+	padding:  0px;
+	color:white;
+	
+}
+
+.content {
+	padding:0px;
+	margin:10px;
+	background-color:#white;
+}
+	section {
+		border:2px solid #444;
+		padding:0px 30px;
+		background-color:#FFFFFF;
+		float:left;
+		width:600px;
+		margin:40px 10px 0px 5px;
+	}
+	
+	#articles {
+		padding:0px 4px 0px 10px;
+		background-color:#FFFFFF;
+		float:left;
+		width:750px;
+		margin:40px 10px 30px 80px;
+	}
+	
+		article {
+			padding:10px 20px 50px 10px;
+			margin:0px 10px 100px 10px;
+		}
+		
+		article img, aside img {
+			width:100%;
+			height:inherit;
+		}
+			
+		article .button {
+			background-color:white;
+			padding:10px 20px;
+			text-transform:uppercase;
+			text-decoration:none;
+			color:black;
+			border-style:solid;
+			border-width:thin;
+		}
+		
+	aside {
+		border:1px solid #918181;
+		padding:0px 20px 20px;
+		background-color:white;
+		float:right;
+		width:150px;
+		margin:40px 0px 0px 0px;
+		color:black;
+		
+	}
+	
+	aside ul{
+		margin: 0px 0px 10px -0px;
+		background-color:white;
+		color:black;
+		padding: 10px 0px;
+	}
+	
+	aside li{
+		margin: 15px 0px;
+		padding: 0px;
+		background-color:white;
+	}
+	
+	aside ul li a {	
+	text-decoration:none;
+	color:black;
+	font-size:12px;
+	
+	}
+	
+	aside img {
+		margin:80px 0px 0px 0px;
+	}
+		
+	.clear {
+		clear:both;
+	}
+footer {
+	padding:10px;
+	letter-spacing:5px;
+	text-align:center;
+	font-size:10px;
+	margin-top:50px;
+}
+/* Post specific styles */
+.post section {
+	width:720px;
+}
+ 
+
